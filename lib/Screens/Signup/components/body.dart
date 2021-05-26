@@ -9,6 +9,9 @@ import 'package:flutter_auth/components/password.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -43,7 +46,7 @@ class Body extends StatelessWidget {
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(
-              login: false,
+              login: true,
               press: () {
                 Navigator.push(
                   context,

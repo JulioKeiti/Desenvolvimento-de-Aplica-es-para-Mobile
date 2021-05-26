@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/PageOne/components/background.dart';
 import 'package:flutter_auth/components/button.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:flutter_auth/Screens/Page2/Page2_screen.dart';
+import 'package:flutter_auth/Screens/Ultima/contacts.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -23,33 +23,32 @@ class Body extends StatelessWidget {
             ),
             const TextField(
               decoration: InputDecoration(
-                  icon: Icon(Icons.send), hintText: 'Local do corpo'),
+                  icon: Icon(Icons.send),
+                  hintText:
+                      'Local do corpo (Ex: Braço, Perna, Peito, Torax, Pescoço, etc'),
             ),
             const TextField(
               decoration: InputDecoration(
-                  icon: Icon(Icons.send), hintText: 'Tamanho da Tatuagem'),
-            ),
-            const TextField(
-              decoration:
-                  InputDecoration(icon: Icon(Icons.send), hintText: 'Dia'),
-            ),
-            const TextField(
-              decoration:
-                  InputDecoration(icon: Icon(Icons.send), hintText: 'Horário'),
+                  icon: Icon(Icons.send),
+                  hintText: 'Tamanho da Tatuagem (P, M, G)'),
             ),
             const TextField(
               decoration: InputDecoration(
-                  icon: Icon(Icons.send), hintText: 'Preço Total'),
+                  icon: Icon(Icons.send), hintText: 'Dia (Ex:20/10/2021)'),
+            ),
+            const TextField(
+              decoration: InputDecoration(
+                  icon: Icon(Icons.send), hintText: 'Horário (Ex:14:00)'),
             ),
             SizedBox(height: size.height * 0.009),
             RoundedButton(
-              text: "Finalizar Agendamento",
+              text: "Contato para Agendamento",
               press: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return Page2Screen();
+                      return Contacts();
                     },
                   ),
                 );

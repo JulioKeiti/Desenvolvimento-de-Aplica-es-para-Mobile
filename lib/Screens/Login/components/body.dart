@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/Login/components/background.dart';
 import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
-import 'package:flutter_auth/Screens/PageOne/PageOne_screen.dart';
+import 'package:flutter_auth/Screens/Page2/Page2_screen.dart';
 import 'package:flutter_auth/components/check.dart';
 import 'package:flutter_auth/components/button.dart';
 import 'package:flutter_auth/components/field.dart';
@@ -40,7 +40,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return PageOneScreen();
+                      return Page2Screen();
                     },
                   ),
                 );

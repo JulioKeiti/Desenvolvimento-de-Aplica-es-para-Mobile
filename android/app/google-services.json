@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "23766135292",
+    "firebase_url": "https://ac2---dam-default-rtdb.firebaseio.com",
+    "project_id": "ac2---dam",
+    "storage_bucket": "ac2---dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23766135292:android:02c13e272002334c80c279",
+        "android_client_info": {
+          "package_name": "com.example.flutter_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23766135292-gll4klus9q5tid0bdi5kncjbob3r0g1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoeiUrklrRuduxg42ElakclyqAetES_OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23766135292-gll4klus9q5tid0bdi5kncjbob3r0g1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
